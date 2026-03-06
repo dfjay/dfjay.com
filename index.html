@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+            name="description"
+            content="dfjay - Backend developer focused on building reliable, scalable systems"
+    />
+    <title>dfjay | Backend Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+<body>
+<div class="container">
+    <!-- Intro -->
+    <section class="intro">
+        <div class="intro-header">
+            <h1>dfjay</h1>
+        </div>
+        <div class="intro-content">
+            <p>Backend developer. I write services, automate things, and keep systems running.</p>
+        </div>
+    </section>
+
+    <!-- Technologies -->
+    <section class="section">
+        <h2>Technologies</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <h3>Go</h3>
+                <p>Main language for everything backend</p>
+            </div>
+            <div class="tech-item">
+                <h3>Kotlin</h3>
+                <p>Second pick for backend work</p>
+            </div>
+            <div class="tech-item">
+                <h3>Java</h3>
+                <p>Know it, use it when needed</p>
+            </div>
+            <div class="tech-item">
+                <h3>TypeScript</h3>
+                <p>For when I have to touch frontend</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Work -->
+    <section class="section">
+        <h2>Selected Work</h2>
+        <div class="project-grid">
+            <!--
+            <a class="project-item" href="#">
+                <h3>Project</h3>
+                <p>Description</p>
+            </a>
+            -->
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section">
+        <h2>Get in Touch</h2>
+        <div class="contact-grid">
+            <a class="contact-card" href="mailto:mail@dfjay.com">
+                <span class="contact-name">Email</span>
+                <span class="contact-label">mail@dfjay.com</span>
+            </a>
+            <a class="contact-card" href="https://github.com/dfjay">
+                <span class="contact-name">GitHub</span>
+                <span class="contact-label">github.com/dfjay</span>
+            </a>
+            <button class="contact-card gpg-button" id="gpg-open">
+                <span class="contact-name">GPG Key</span>
+                <span class="contact-label">Public key</span>
+            </button>
+        </div>
+    </section>
+</div>
+
+<!-- GPG Modal -->
+<div class="modal-overlay" id="gpg-modal" hidden>
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>GPG Public Key</h3>
+            <button class="modal-close" id="gpg-close">&times;</button>
+        </div>
+        <pre class="gpg-key" id="gpg-key-text">-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=dxCL
+-----END PGP PUBLIC KEY BLOCK-----</pre>
+        <button class="copy-button" id="gpg-copy">Copy to clipboard</button>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
